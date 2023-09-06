@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--NAVBAR-->
+    <header>
+        <h1>E-Commerce</h1>
+        <input type="text" placeholder="Product Name">
+        <div>
+            <button id="open-btn">Basket</button>
+            <button>Register</button>
+            <button>Login</button>
+        </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+        <!--CATEGORY-->
+        <div class="category-wrapper">
+            <h1>Categories</h1>
+            <div class="categories"></div>
+        </div>
+        
+        <!--PRODUCT-->
+        <div class="product-wrapper">
+            <h1>Products</h1>
+            <div class="products"></div>
+            </div>
+        </div>
+
+        <div class="modal-wrapper">
+            <div class="modal">
+                <img id="close-btn" src="images/close.png">
+                <div class="modal-list"></div>
+                <div class="total">
+                    Total:
+                    <span id="modal-info">
+                        0
+                    </span>
+                    $
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer-create">
+            <h4>Created By Furkan Can</h4>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!--JS-->
+    <script src="main.js"></script>
+</body>
+</html>
